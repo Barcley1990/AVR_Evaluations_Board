@@ -8,7 +8,7 @@
 </settings>
 <grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -168,7 +168,9 @@
 <wire x1="60.9475" y1="0" x2="60.9475" y2="39.36" width="0" layer="20"/>
 <wire x1="60.9475" y1="39.36" x2="0" y2="39.36" width="0" layer="20"/>
 <wire x1="0" y1="39.36" x2="0" y2="0" width="0" layer="20"/>
-<text x="31.75" y="9.2075" size="1.778" layer="25">Tobias Nuß</text>
+<text x="26.9875" y="4.7625" size="1.778" layer="51">Tobias Nuß
+AVR-Evaluationsboard
+März 2015</text>
 </plain>
 <libraries>
 <library name="atmel">
@@ -2866,4 +2868,10 @@ Please make sure your boards conform to these design rules.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

@@ -168,7 +168,7 @@
 <wire x1="60.9475" y1="0" x2="60.9475" y2="39.36" width="0" layer="20"/>
 <wire x1="60.9475" y1="39.36" x2="0" y2="39.36" width="0" layer="20"/>
 <wire x1="0" y1="39.36" x2="0" y2="0" width="0" layer="20"/>
-<text x="26.9875" y="4.7625" size="1.778" layer="51">Tobias Nuß
+<text x="26.9875" y="4.7625" size="1.778" layer="25">Tobias Nuß
 AVR-Evaluationsboard
 März 2015</text>
 </plain>
