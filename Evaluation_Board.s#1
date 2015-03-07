@@ -14345,11 +14345,11 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="C11" gate="G$1" x="71.12" y="167.64" rot="R180"/>
 <instance part="SUPPLY30" gate="1" x="71.12" y="160.02"/>
 <instance part="P+1" gate="1" x="264.16" y="228.6"/>
-<instance part="C4" gate="G$1" x="160.02" y="241.3" rot="R180"/>
-<instance part="C5" gate="G$1" x="127" y="238.76" rot="R180"/>
-<instance part="SUPPLY8" gate="1" x="160.02" y="231.14"/>
-<instance part="SUPPLY9" gate="1" x="127" y="231.14"/>
-<instance part="SUPPLY11" gate="1" x="182.88" y="251.46"/>
+<instance part="C4" gate="G$1" x="160.02" y="231.14" rot="R180"/>
+<instance part="C5" gate="G$1" x="127" y="228.6" rot="R180"/>
+<instance part="SUPPLY8" gate="1" x="160.02" y="220.98"/>
+<instance part="SUPPLY9" gate="1" x="127" y="220.98"/>
+<instance part="SUPPLY11" gate="1" x="182.88" y="241.3"/>
 <instance part="SV5" gate="A" x="152.4" y="142.24"/>
 <instance part="C10" gate="G$1" x="251.46" y="180.34" rot="R180"/>
 <instance part="SUPPLY15" gate="1" x="251.46" y="172.72"/>
@@ -14363,13 +14363,13 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="SUPPLY16" gate="1" x="58.42" y="149.86" rot="R180"/>
 <instance part="SUPPLY17" gate="1" x="251.46" y="195.58"/>
 <instance part="SUPPLY3" gate="1" x="78.74" y="218.44"/>
-<instance part="SUPPLY7" gate="1" x="147.32" y="231.14"/>
+<instance part="SUPPLY7" gate="1" x="147.32" y="220.98"/>
 <instance part="JP1" gate="A" x="175.26" y="170.18"/>
-<instance part="IC3" gate="A1" x="147.32" y="243.84"/>
+<instance part="IC3" gate="A1" x="147.32" y="233.68"/>
 <instance part="SUPPLY1" gate="1" x="236.22" y="129.54" rot="R180"/>
 <instance part="C1" gate="G$1" x="86.36" y="48.26" rot="R180"/>
 <instance part="SUPPLY18" gate="1" x="86.36" y="43.18"/>
-<instance part="D2" gate="G$1" x="167.64" y="246.38"/>
+<instance part="D2" gate="G$1" x="147.32" y="248.92" rot="R180"/>
 <instance part="D3" gate="G$1" x="236.22" y="144.78" rot="R270"/>
 <instance part="C2" gate="G$1" x="66.04" y="190.5" rot="R90"/>
 <instance part="C6" gate="G$1" x="66.04" y="185.42" rot="R90"/>
@@ -14389,12 +14389,15 @@ Source: 008-0260-0_E.pdf</description>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="127" y1="243.84" x2="127" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="127" y1="246.38" x2="119.38" y2="246.38" width="0.1524" layer="91"/>
-<junction x="127" y="246.38"/>
-<label x="119.38" y="246.38" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="127" y1="246.38" x2="137.16" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="127" y1="233.68" x2="127" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="127" y1="236.22" x2="119.38" y2="236.22" width="0.1524" layer="91"/>
+<junction x="127" y="236.22"/>
+<label x="119.38" y="236.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="127" y1="236.22" x2="137.16" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="A1" pin="VI"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="144.78" y1="248.92" x2="127" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="127" y1="248.92" x2="127" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -14641,13 +14644,13 @@ Source: 008-0260-0_E.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="1" pin="GND"/>
-<wire x1="147.32" y1="238.76" x2="147.32" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="228.6" x2="147.32" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="A1" pin="ADJ"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="SUPPLY8" gate="1" pin="GND"/>
-<wire x1="160.02" y1="238.76" x2="160.02" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="228.6" x2="160.02" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
@@ -14657,7 +14660,7 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="SUPPLY9" gate="1" pin="GND"/>
-<wire x1="127" y1="236.22" x2="127" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="127" y1="226.06" x2="127" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -14721,10 +14724,16 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="248.92" x2="182.88" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="238.76" x2="182.88" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="1" pin="+5V"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="170.18" y1="246.38" x2="182.88" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="236.22" x2="160.02" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="A1" pin="VO"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="236.22" x2="182.88" y2="236.22" width="0.1524" layer="91"/>
+<junction x="160.02" y="236.22"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="149.86" y1="248.92" x2="160.02" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="248.92" x2="160.02" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="1" pin="VCC"/>
@@ -15148,16 +15157,6 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="236.22" y1="149.86" x2="236.22" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="149.86" x2="236.22" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="157.48" y1="246.38" x2="160.02" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A1" pin="VO"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="246.38" x2="165.1" y2="246.38" width="0.1524" layer="91"/>
-<junction x="160.02" y="246.38"/>
 </segment>
 </net>
 <net name="N$17" class="0">

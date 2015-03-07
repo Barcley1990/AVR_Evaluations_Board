@@ -14236,7 +14236,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="IC1" library="atmel" deviceset="MEGA32" device="-A" value="MEGA32-A"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="S1" library="switch-omron" deviceset="10-XX" device=""/>
+<part name="RESET" library="switch-omron" deviceset="10-XX" device=""/>
 <part name="SUPPLY2" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="J1" library="con-jack" deviceset="DCJ0202" device=""/>
@@ -14312,7 +14312,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="IC1" gate="G$1" x="106.68" y="154.94"/>
 <instance part="R1" gate="G$1" x="78.74" y="208.28" rot="R90"/>
 <instance part="R2" gate="G$1" x="271.78" y="223.52"/>
-<instance part="S1" gate="1" x="63.5" y="200.66" rot="R270"/>
+<instance part="RESET" gate="1" x="63.5" y="200.66" rot="R270"/>
 <instance part="SUPPLY2" gate="1" x="43.18" y="198.12" rot="R270"/>
 <instance part="C3" gate="G$1" x="66.04" y="137.16" rot="R180"/>
 <instance part="J1" gate="G$1" x="30.48" y="243.84"/>
@@ -14474,14 +14474,14 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="IC1" gate="G$1" pin="RESET"/>
 <wire x1="78.74" y1="203.2" x2="78.74" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="198.12" x2="86.36" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="S1" gate="1" pin="S1"/>
+<pinref part="RESET" gate="1" pin="S1"/>
 <wire x1="78.74" y1="198.12" x2="68.58" y2="198.12" width="0.1524" layer="91"/>
 <junction x="78.74" y="198.12"/>
 <wire x1="86.36" y1="198.12" x2="83.82" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="198.12" x2="83.82" y2="200.66" width="0.1524" layer="91"/>
 <junction x="86.36" y="198.12"/>
 <label x="83.82" y="200.66" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="S1" gate="1" pin="S"/>
+<pinref part="RESET" gate="1" pin="S"/>
 <wire x1="68.58" y1="200.66" x2="68.58" y2="198.12" width="0.1524" layer="91"/>
 <junction x="68.58" y="198.12"/>
 </segment>
@@ -14616,9 +14616,9 @@ Source: 008-0260-0_E.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="1" pin="GND"/>
-<pinref part="S1" gate="1" pin="P1"/>
+<pinref part="RESET" gate="1" pin="P1"/>
 <wire x1="45.72" y1="198.12" x2="58.42" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="S1" gate="1" pin="P"/>
+<pinref part="RESET" gate="1" pin="P"/>
 <wire x1="58.42" y1="200.66" x2="58.42" y2="198.12" width="0.1524" layer="91"/>
 <junction x="58.42" y="198.12"/>
 </segment>
