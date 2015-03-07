@@ -2598,6 +2598,10 @@ Please make sure your boards conform to these design rules.</description>
 <via x="40.64" y="17.4625" extent="1-16" drill="0.5"/>
 <via x="37.1475" y="11.1125" extent="1-16" drill="0.5"/>
 <via x="38.735" y="28.8925" extent="1-16" drill="0.5"/>
+<contactref element="C2" pad="1"/>
+<contactref element="C6" pad="1"/>
+<wire x1="64.77" y1="25.715" x2="68.5825" y2="31.75" width="0" layer="19" extent="16-16"/>
+<wire x1="58.735" y1="20.955" x2="64.77" y2="25.715" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="+5V">
 <contactref element="SV1" pad="2"/>
@@ -3089,6 +3093,20 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="16.1925" y1="11.3175" x2="16.1925" y2="9.205" width="0.3048" layer="1"/>
 <wire x1="16.1925" y1="9.205" x2="17.8535" y2="9.205" width="0.3048" layer="1"/>
 <wire x1="17.8535" y1="9.205" x2="18.8085" y2="10.16" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$17">
+<contactref element="Q1" pad="2"/>
+<contactref element="C2" pad="2"/>
+<contactref element="IC1" pad="7"/>
+<wire x1="66.9925" y1="17.526" x2="64.77" y2="23.815" width="0" layer="19" extent="16-16"/>
+<wire x1="32.935" y1="20.79" x2="64.77" y2="23.815" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$25">
+<contactref element="Q1" pad="1"/>
+<contactref element="C6" pad="2"/>
+<contactref element="IC1" pad="8"/>
+<wire x1="66.9925" y1="7.874" x2="70.4825" y2="31.75" width="0" layer="19" extent="16-16"/>
+<wire x1="32.935" y1="19.99" x2="66.9925" y2="7.874" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 </board>

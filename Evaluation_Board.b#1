@@ -2256,15 +2256,15 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="8.6995" y="15.8115" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="12.2555" y="15.8115" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C2" library="rcl" package="C0805" value="100n" x="64.77" y="24.765" smashed="yes" rot="MR270">
+<element name="C2" library="rcl" package="C0805" value="12p" x="64.77" y="24.765" smashed="yes" rot="MR270">
 <attribute name="NAME" x="63.5" y="26.035" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="67.31" y="26.035" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C6" library="rcl" package="C0805" value="100n" x="69.5325" y="31.75" smashed="yes" rot="MR180">
+<element name="C6" library="rcl" package="C0805" value="12p" x="69.5325" y="31.75" smashed="yes" rot="MR180">
 <attribute name="NAME" x="68.2625" y="30.48" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="68.2625" y="34.29" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="Q1" library="crystal" package="HC49UP" value="" x="66.9925" y="12.7" smashed="yes" rot="MR90">
+<element name="Q1" library="crystal" package="HC49UP" value="16 MHz" x="66.9925" y="12.7" smashed="yes" rot="MR90">
 <attribute name="OC_NEWARK" value="unknown" x="66.9925" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="" x="66.9925" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="66.9925" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>

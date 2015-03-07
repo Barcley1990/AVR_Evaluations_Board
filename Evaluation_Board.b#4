@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -20,8 +20,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -2475,14 +2475,12 @@ Please make sure your boards conform to these design rules.</description>
 <via x="31.75" y="14.9225" extent="1-16" drill="0.5"/>
 <via x="39.37" y="12.3825" extent="1-16" drill="0.5"/>
 <via x="39.37" y="11.43" extent="1-16" drill="0.5"/>
-<via x="35.2425" y="17.4625" extent="1-16" drill="0.5"/>
 <via x="37.1475" y="14.2875" extent="1-16" drill="0.5"/>
 <via x="34.6075" y="21.9075" extent="1-16" drill="0.5"/>
 <via x="26.035" y="20.6375" extent="1-16" drill="0.5"/>
 <via x="40.64" y="17.4625" extent="1-16" drill="0.5"/>
 <via x="37.1475" y="11.1125" extent="1-16" drill="0.5"/>
 <via x="38.735" y="28.8925" extent="1-16" drill="0.5"/>
-<wire x1="35.2425" y1="17.4625" x2="37.1475" y2="14.2875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="SV1" pad="2"/>
@@ -2879,12 +2877,12 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SV4" pad="1"/>
 <wire x1="35.535" y1="27.39" x2="35.535" y2="26.3775" width="0.3048" layer="1"/>
 <wire x1="35.535" y1="26.3775" x2="37.465" y2="24.4475" width="0.3048" layer="1"/>
-<wire x1="37.465" y1="24.4475" x2="37.465" y2="19.3675" width="0.3048" layer="1"/>
-<via x="36.195" y="18.0975" extent="1-16" drill="0.5"/>
+<wire x1="37.465" y1="24.4475" x2="37.465" y2="18.7325" width="0.3048" layer="1"/>
+<via x="36.195" y="17.4625" extent="1-16" drill="0.5"/>
 <wire x1="32.7025" y1="4.445" x2="32.7025" y2="2.54" width="0.3048" layer="16"/>
-<wire x1="37.465" y1="19.3675" x2="36.195" y2="18.0975" width="0.3048" layer="1"/>
+<wire x1="37.465" y1="18.7325" x2="36.195" y2="17.4625" width="0.3048" layer="1"/>
 <wire x1="36.195" y1="7.9375" x2="32.7025" y2="4.445" width="0.3048" layer="16"/>
-<wire x1="36.195" y1="18.0975" x2="36.195" y2="7.9375" width="0.3048" layer="16"/>
+<wire x1="36.195" y1="17.4625" x2="36.195" y2="7.9375" width="0.3048" layer="16"/>
 </signal>
 <signal name="OC2">
 <contactref element="IC1" pad="16"/>
@@ -2915,9 +2913,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SV4" pad="8"/>
 <wire x1="38.4175" y1="24.765" x2="37.135" y2="26.0475" width="0.3048" layer="1"/>
 <wire x1="37.135" y1="26.0475" x2="37.135" y2="27.39" width="0.3048" layer="1"/>
-<wire x1="35.2425" y1="21.2725" x2="38.4175" y2="21.2725" width="0.3048" layer="16"/>
-<via x="38.4175" y="21.2725" extent="1-16" drill="0.5"/>
-<wire x1="38.4175" y1="21.2725" x2="38.4175" y2="24.765" width="0.3048" layer="1"/>
+<wire x1="35.56" y1="21.59" x2="38.4175" y2="21.59" width="0.3048" layer="16"/>
+<via x="38.4175" y="21.59" extent="1-16" drill="0.5"/>
+<wire x1="38.4175" y1="21.59" x2="38.4175" y2="24.765" width="0.3048" layer="1"/>
 <wire x1="14.9225" y1="2.54" x2="14.9225" y2="3.175" width="0.3048" layer="16"/>
 <wire x1="14.9225" y1="3.175" x2="27.94" y2="16.1925" width="0.3048" layer="16"/>
 <wire x1="27.94" y1="16.1925" x2="31.4325" y2="16.1925" width="0.3048" layer="16"/>
@@ -2926,7 +2924,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="33.3375" y1="16.1925" x2="33.655" y2="16.51" width="0.3048" layer="1"/>
 <via x="33.655" y="16.51" extent="1-16" drill="0.5"/>
 <wire x1="33.655" y1="16.51" x2="33.655" y2="19.685" width="0.3048" layer="16"/>
-<wire x1="33.655" y1="19.685" x2="35.2425" y2="21.2725" width="0.3048" layer="16"/>
+<wire x1="33.655" y1="19.685" x2="35.56" y2="21.59" width="0.3048" layer="16"/>
 </signal>
 <signal name="PD6">
 <contactref element="IC1" pad="15"/>
