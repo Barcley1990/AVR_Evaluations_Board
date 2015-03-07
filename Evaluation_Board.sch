@@ -14245,7 +14245,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="LED1" library="led" deviceset="LED" device="SML0805" value="green on"/>
 <part name="SUPPLY10" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="EmbeddedProjectsBauteile" deviceset="USB-B-BUCHSE-HORIZONTAL" device=""/>
-<part name="SV1" library="pinhead" deviceset="PINHD-2X3" device="" value="ISP"/>
+<part name="ISP" library="pinhead" deviceset="PINHD-2X3" device="" value="ISP"/>
 <part name="SV2" library="pinhead" deviceset="PINHD-1X8" device="" value="ADC"/>
 <part name="SUPPLY13" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY14" library="supply1" deviceset="GND" device=""/>
@@ -14321,7 +14321,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="LED1" gate="G$1" x="281.94" y="223.52" rot="R90"/>
 <instance part="SUPPLY10" gate="1" x="292.1" y="223.52" rot="R90"/>
 <instance part="X1" gate="G$1" x="228.6" y="160.02" rot="R180"/>
-<instance part="SV1" gate="A" x="279.4" y="241.3" rot="R180"/>
+<instance part="ISP" gate="A" x="279.4" y="241.3" rot="R180"/>
 <instance part="SV2" gate="A" x="152.4" y="187.96"/>
 <instance part="SUPPLY13" gate="1" x="264.16" y="238.76" rot="R90"/>
 <instance part="SUPPLY14" gate="1" x="269.24" y="248.92" rot="R180"/>
@@ -14465,7 +14465,7 @@ Source: 008-0260-0_E.pdf</description>
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="SV1" gate="A" pin="5"/>
+<pinref part="ISP" gate="A" pin="5"/>
 <wire x1="281.94" y1="243.84" x2="289.56" y2="243.84" width="0.1524" layer="91"/>
 <label x="289.56" y="243.84" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -14494,7 +14494,7 @@ Source: 008-0260-0_E.pdf</description>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="SV1" gate="A" pin="3"/>
+<pinref part="ISP" gate="A" pin="3"/>
 <wire x1="281.94" y1="241.3" x2="302.26" y2="241.3" width="0.1524" layer="91"/>
 <label x="302.26" y="241.3" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -14510,7 +14510,7 @@ Source: 008-0260-0_E.pdf</description>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="SV1" gate="A" pin="1"/>
+<pinref part="ISP" gate="A" pin="1"/>
 <label x="292.1" y="238.76" size="1.778" layer="95" xref="yes"/>
 <wire x1="281.94" y1="238.76" x2="292.1" y2="238.76" width="0.1524" layer="91"/>
 </segment>
@@ -14526,7 +14526,7 @@ Source: 008-0260-0_E.pdf</description>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="SV1" gate="A" pin="4"/>
+<pinref part="ISP" gate="A" pin="4"/>
 <label x="264.16" y="241.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="274.32" y1="241.3" x2="264.16" y2="241.3" width="0.1524" layer="91"/>
 </segment>
@@ -14543,7 +14543,7 @@ Source: 008-0260-0_E.pdf</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="SUPPLY14" gate="1" pin="GND"/>
-<pinref part="SV1" gate="A" pin="6"/>
+<pinref part="ISP" gate="A" pin="6"/>
 <wire x1="269.24" y1="246.38" x2="269.24" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="243.84" x2="274.32" y2="243.84" width="0.1524" layer="91"/>
 </segment>
@@ -14697,7 +14697,7 @@ Source: 008-0260-0_E.pdf</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="SV1" gate="A" pin="2"/>
+<pinref part="ISP" gate="A" pin="2"/>
 <pinref part="SUPPLY13" gate="1" pin="+5V"/>
 <wire x1="266.7" y1="238.76" x2="274.32" y2="238.76" width="0.1524" layer="91"/>
 </segment>

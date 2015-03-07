@@ -2554,7 +2554,6 @@ Design rules for OSH Park PCB 2 layer</description>
 <via x="23.495" y="25.0825" extent="1-16" drill="0.5"/>
 <via x="23.495" y="22.86" extent="1-16" drill="0.5"/>
 <via x="20.32" y="15.875" extent="1-16" drill="0.5"/>
-<wire x1="38.735" y1="27.39" x2="33.655" y2="27.6225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="SV1" pad="2"/>
@@ -2594,7 +2593,7 @@ Design rules for OSH Park PCB 2 layer</description>
 <via x="54.2925" y="4.7625" extent="1-16" drill="0.5"/>
 <wire x1="54.2925" y1="4.7625" x2="56.5175" y2="4.7625" width="0.3048" layer="1"/>
 <wire x1="39.535" y1="27.39" x2="39.535" y2="29.68" width="0.3048" layer="1"/>
-<via x="39.0525" y="30.1625" extent="1-16" drill="0.5"/>
+<via x="39.37" y="29.845" extent="1-16" drill="0.5"/>
 <wire x1="35.56" y1="33.655" x2="30.1625" y2="33.655" width="0.3048" layer="16"/>
 <via x="30.1625" y="33.655" extent="1-16" drill="0.5"/>
 <wire x1="38.735" y1="15.79" x2="38.735" y2="17.30375" width="0.3048" layer="1"/>
@@ -2614,8 +2613,8 @@ Design rules for OSH Park PCB 2 layer</description>
 <wire x1="35.08375" y1="13.335" x2="35.08375" y2="8.89" width="0.3048" layer="16"/>
 <via x="35.08375" y="8.89" extent="1-16" drill="0.5"/>
 <wire x1="38.735" y1="15.79" x2="38.735" y2="13.0175" width="0.3048" layer="1"/>
-<wire x1="39.535" y1="29.68" x2="39.0525" y2="30.1625" width="0.3048" layer="1"/>
-<wire x1="35.56" y1="33.655" x2="39.0525" y2="30.1625" width="0.3048" layer="16"/>
+<wire x1="39.535" y1="29.68" x2="39.37" y2="29.845" width="0.3048" layer="1"/>
+<wire x1="35.56" y1="33.655" x2="39.37" y2="29.845" width="0.3048" layer="16"/>
 <contactref element="C7" pad="2"/>
 <wire x1="32.935" y1="22.39" x2="32.22" y2="22.39" width="0.3048" layer="1"/>
 <wire x1="32.22" y1="22.39" x2="30.1625" y2="24.4475" width="0.3048" layer="1"/>
