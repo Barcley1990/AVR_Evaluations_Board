@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14299,9 +14299,9 @@ Source: 008-0260-0_E.pdf</description>
 <part name="SUPPLY18" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="DIODE-" device="MINIMELF"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="MINIMELF"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49UP"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="12p"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="12p"/>
+<part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49UP" value="16 MHz"/>
 <part name="SUPPLY22" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -14378,10 +14378,10 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="SUPPLY18" gate="1" x="86.36" y="43.18"/>
 <instance part="D2" gate="G$1" x="167.64" y="246.38"/>
 <instance part="D3" gate="G$1" x="236.22" y="144.78" rot="R270"/>
-<instance part="C2" gate="G$1" x="78.74" y="190.5" rot="R90"/>
-<instance part="C6" gate="G$1" x="78.74" y="185.42" rot="R90"/>
+<instance part="C2" gate="G$1" x="66.04" y="190.5" rot="R90"/>
+<instance part="C6" gate="G$1" x="66.04" y="185.42" rot="R90"/>
 <instance part="Q1" gate="G$1" x="71.12" y="187.96" rot="R90"/>
-<instance part="SUPPLY22" gate="1" x="55.88" y="190.5" rot="R270"/>
+<instance part="SUPPLY22" gate="1" x="58.42" y="187.96" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -14683,6 +14683,15 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY18" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="190.5" x2="63.5" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="SUPPLY22" gate="1" pin="GND"/>
+<wire x1="63.5" y1="187.96" x2="63.5" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="187.96" x2="63.5" y2="187.96" width="0.1524" layer="91"/>
+<junction x="63.5" y="187.96"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -15175,6 +15184,24 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="246.38" x2="165.1" y2="246.38" width="0.1524" layer="91"/>
 <junction x="160.02" y="246.38"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="XTAL2"/>
+<wire x1="71.12" y1="190.5" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
+<junction x="71.12" y="190.5"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="XTAL1"/>
+<wire x1="86.36" y1="185.42" x2="71.12" y2="185.42" width="0.1524" layer="91"/>
+<junction x="71.12" y="185.42"/>
 </segment>
 </net>
 </nets>
