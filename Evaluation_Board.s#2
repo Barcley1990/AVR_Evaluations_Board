@@ -14299,9 +14299,9 @@ Source: 008-0260-0_E.pdf</description>
 <part name="SUPPLY18" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="DIODE-" device="MINIMELF"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="MINIMELF"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49UP"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="12p"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="12p"/>
+<part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49UP" value="16 MHz"/>
 <part name="SUPPLY22" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>

@@ -14684,22 +14684,6 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY18" gate="1" pin="GND"/>
 </segment>
-<segment>
-<pinref part="SUPPLY22" gate="1" pin="GND"/>
-<pinref part="Q1" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="190.5" x2="66.04" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="190.5" x2="71.12" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="190.5" x2="76.2" y2="190.5" width="0.1524" layer="91"/>
-<junction x="71.12" y="190.5"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="Q1" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="185.42" x2="71.12" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="185.42" x2="66.04" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="185.42" x2="66.04" y2="190.5" width="0.1524" layer="91"/>
-<junction x="71.12" y="185.42"/>
-<junction x="66.04" y="190.5"/>
-</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -15191,20 +15175,6 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="246.38" x2="165.1" y2="246.38" width="0.1524" layer="91"/>
 <junction x="160.02" y="246.38"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="IC1" gate="G$1" pin="XTAL2"/>
-<wire x1="83.82" y1="190.5" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="XTAL1"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="185.42" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
